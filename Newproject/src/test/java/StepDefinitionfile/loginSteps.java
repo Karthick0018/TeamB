@@ -27,7 +27,6 @@ public class loginSteps extends BrowserInvocation {
     @Given("To Navigate required url")
     public void navigateUrl() throws IOException {
         driver = BrowserInvocation.launchBrowser();
-        System.out.println("new");
     }
 
     @Then("Handle the wikipedia frame")
